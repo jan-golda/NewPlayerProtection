@@ -1,0 +1,14 @@
+name: NewPlayerProtection
+version: 1.1
+author: regzand
+website: http://regzand.pl/?lan=en&page=project&project=NewPlayerProtection
+description: Protect new player from damage.
+main: pl.regzand.newplayerprotection.NewPlayerProtectionPlugin
+commands:
+    NewPlayerProtection:
+        description: Main plugin command
+        aliases: ['npp']
+
+# Permissions:
+#   newplayerprotection.protect
+#   newplayerprotection.protect.allTime

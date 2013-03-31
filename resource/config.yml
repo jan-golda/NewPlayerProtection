@@ -1,0 +1,80 @@
+
+  # ========================================== #
+  #         NewPlayerProtection Plugin         #
+  #               configuration                #
+  #                                            #
+  # plugin created for BUKKIT.PL by REGZAND    #
+  # ========================================== #
+
+  
+# Ustawia dlugosc trwania okresu ochronnego.
+#-------------------------------------------
+# 1 dzien     ->   86 400 000
+# 1 godzina   ->    3 600 000
+# 1 minuta    ->       60 000
+# 1 sekunda   ->        1 000
+#-------------------------------------------
+# USTAW 0 ABY WYLACZYC PLUGIN
+#-------------------------------------------
+# Przyklad: 29952000 -> 3 dni 5 godzin 37 minut i 12 sekund
+new-player-time: 86400000
+
+
+
+
+# Czy atak innego gracza ma odbierac zycie.
+take-PLAYER-damage: false
+
+# Czy mob ma odbierac zycie.
+take-MOB-damage: true
+
+# Czy wybuch creepera ma odbierac zycie.
+take-MOB-EXPLOSION-damage: true
+
+# Czy wybuch TnT ma odbierac zycie.
+take-BLOCK-EXPLOSION-damage: true
+
+# Czy kaktus ma odbierac zycie.
+take-CONTACT-damage: true
+
+# Czy toniecie ma odbierac zycie.
+take-DROWNING-damage: true
+
+# Czy upadek ma odbierac zycie.
+take-FALL-damage: true
+
+# Czy spaadajace bloki (sand/gravel) maja odbierac zycie.
+take-FALLING-BLOCK-damage: true
+
+# Czy ogien ma odbierac zycie.
+take-FIRE-damage: true
+
+# Czy lava ma odbierac zycie.
+take-LAVA-damage: true
+
+# Czy piorun ma odbierac zycie.
+take-LIGHTNING-damage: true
+
+# Czy mikstury/czary maja odbierac zycie.
+take-MAGIC-damage: true
+
+# Czy trucizna ma odbierac zycie.
+take-POISON-damage: true
+
+# Czy strzaly maja odbierac zycie.
+take-PROJECTILE-damage: true
+
+# Czy przebywanie w bloku ma odbierac zycie.
+take-SUFFOCATION-damage: true
+
+# Czy Wither ma odbierac zycie.
+take-WITHER-damage: true
+
+# Czy glod ma odbierac zycie.
+take-STARVATION-damage: true
+
+# Czy ma zadawac obrazenia innym gracza
+give-PLAYER-damage: false
+
+# Czy ma zadawac obrazenia mobom
+give-MOB-damage: false
